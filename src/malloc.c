@@ -73,9 +73,3 @@ void *malloc(size_t size)
     }
     return ((size > 0) ? split(order) : NULL);
 }
-
-/*
-
-Offset = distance séparant deux emplacements mémoire.
-
-*/
