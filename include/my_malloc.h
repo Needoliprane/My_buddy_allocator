@@ -10,7 +10,6 @@
 
 /* Include */
 #include <unistd.h>
-#include <pthread.h>
 
 /* Define & Macro */
 #define FREE_BLOCK                  (0)
@@ -49,8 +48,5 @@ void set_init(char **start, unsigned long offset, block_t **init);
 /* Tool ==> Free */
 void remove_block(block_t *block);
 void free_swap(block_t **block, block_t **buddy);
-
-/* Debug */
-void debug(const char *format, ...);
 
 #endif /* !MY_MALLOC_H_ */

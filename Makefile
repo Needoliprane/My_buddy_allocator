@@ -22,7 +22,6 @@ LIBPATH = 	lib/
 SRC	=	$(SRCPATH)malloc.c			\
 		$(SRCPATH)realloc.c			\
 		$(SRCPATH)free.c			\
-		$(SRCPATH)debug.c			\
 
 OBJ	=	$(SRC:.c=.o)
 
