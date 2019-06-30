@@ -55,9 +55,3 @@ void free(void *ptr)
     block->succ = blocks[block->kval];
     blocks[block->kval] = block;
 }
-
-/*
- ^          xor => 0 | 1 = 1 && 1 | 0 = 1 the rest X
- <<         bitshift left change l'ordre des byte
-
-*/
